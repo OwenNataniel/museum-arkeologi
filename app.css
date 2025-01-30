@@ -3,9 +3,18 @@ body {
   font-family: "Nunito", sans-serif;
 }
 
+img {
+  border-radius: 5px;
+}
+
 #navbar {
   font-size: 1.5rem;
   font-weight: 100;
+  /* background-color: #1b1a55; */
+}
+
+#navbar button {
+  color: #535c91;
 }
 
 #navbar .nav-link {
@@ -20,6 +29,10 @@ body {
   color: #9290c3;
   font-size: 1.5rem;
   font-weight: 300;
+}
+
+#navbar.scrolled {
+  background-color: #1b1a55;
 }
 
 #title-head {
@@ -38,7 +51,6 @@ body {
   font-weight: 100;
   font-size: 1.125rem;
   line-height: 2;
-  margin-bottom: 100px;
 }
 
 .content {
